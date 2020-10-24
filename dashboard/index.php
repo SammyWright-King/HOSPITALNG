@@ -1,5 +1,5 @@
 <?php
-    //session_start();
+    session_start();
    
     if(!isset($_SESSION['auth_status']))
     {
@@ -22,14 +22,14 @@
             <div class="col-3">
                 <div class="card border-secondary" style="margin-bottom:1cm;">
                     <div class="card-body ">
-                    <a href="PatientRegistration.dash.php" class="card-title "><p>Patient Registration</p></a>
+                    <a href="./PatientRegistration.dash.php" class="card-title "><p>Patient Registration</p></a>
                     </div>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card border-secondary" >
                     <div class="card-body ">
-                    <a href="ScheduleAppointment.dash.php" class="card-title "><p>Schedule Appointment</p></a>
+                    <a href="./ScheduleAppointment.dash.php" class="card-title "><p>Schedule Appointment</p></a>
                     </div>
                 </div>
             </div>

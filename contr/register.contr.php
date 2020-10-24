@@ -75,7 +75,7 @@
 
       $_SESSION['data'] = $Data;
       $_SESSION['auth_status'] = true;
-      header("Location: dashboard/index.php");
+      header("Location: dashboard/index.php?message=signupsuccessful");
       exit();
       return true;
     }
